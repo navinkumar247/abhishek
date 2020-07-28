@@ -1,0 +1,18 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.ct-header{
+    background-size: cover;
+    background-position: 60%;
+}
+
+.scroll-up>*{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all ease-in 1s;
+}
+
+.appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
